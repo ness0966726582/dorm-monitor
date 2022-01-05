@@ -1,0 +1,3 @@
+pic1存放位置 : /home/pi
+pic2加入開機程序 --->pi@C312:~ $ sudo nano /etc/rc.local
+pic3允許權限 --->pi@C312:~ $ chmod 777 autostart.sh
