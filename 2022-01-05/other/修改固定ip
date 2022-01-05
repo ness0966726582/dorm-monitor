@@ -1,0 +1,12 @@
+檢視ip
+>ifconfig
+
+開啟conf檔案
+>sudo nano /etc/dhcpcd.conf
+
+新增內容：
+
+interface eth0
+static ip_address=10.231.220.xxx/24
+static routers=10.231.220.254
+static domain_name_servers=8.8.8.8
